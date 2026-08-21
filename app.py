@@ -53,7 +53,7 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("**ชื่อ-นามสกุล:** เทพทัต ทับทิมไทร")
     st.markdown("**รหัสนักศึกษา:** 664245012")
-    st.markdown("**หมู่เรียน:** `66/43")
+    st.markdown("**หมู่เรียน:** 66/43")
     st.markdown("---")
     st.info("โปรเจกต์ทำนายอัตราการเฟ้อของ HP ศัตรูในเกม Honkai: Star Rail (Polynomial Regression)")
 

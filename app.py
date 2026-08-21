@@ -134,7 +134,7 @@ if predict_btn:
             st.warning("⚠️ คำเตือน: เลือดบอสติดลบ อาจเกิดจากการใส่เลขแพตช์ในอดีตที่ไกลเกินไป")
         else:
             st.success("✨ ทำนายผลสำเร็จเรียบร้อย!")
-            st.balloons()
+            
             
     except FileNotFoundError:
         st.error(f"❌ ระบบหาไฟล์โมเดลของโหมด '{mode}' ไม่พบครับ ลองตรวจสอบไฟล์ .pkl ใน GitHub อีกครั้ง")

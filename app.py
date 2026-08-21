@@ -52,16 +52,16 @@ with st.sidebar:
     st.image("IMG20240703140738.jpg", use_container_width=True)
     st.markdown("---")
     st.markdown("**ชื่อ-นามสกุล:** เทพทัต ทับทิมไทร")
-    st.markdown("**รหัสนักศึกษา:** `[ใส่รหัสนักศึกษาของคุณ]`")
-    st.markdown("**หมู่เรียน:** `[ใส่หมู่เรียนของคุณ]`")
+    st.markdown("**รหัสนักศึกษา:** 664245012")
+    st.markdown("**หมู่เรียน:** `66/43")
     st.markdown("---")
-    st.info("โปรเจกต์ทำนายอัตราเงินเฟ้อ HP ศัตรูในเกม Honkai: Star Rail (Polynomial Regression)")
+    st.info("โปรเจกต์ทำนายอัตราการเฟ้อของ HP ศัตรูในเกม Honkai: Star Rail (Polynomial Regression)")
 
 # ==========================================
 # 4. ส่วนหัวเว็บ (Header & Logo)
 # ==========================================
-st.image("logo.png", width=250)
-st.title("Boss HP Predictor")
+st.image("logo.png", width=400)
+st.title("End Game Content's Boss HP Inflation Predictor")
 st.markdown("---")
 
 # ==========================================

@@ -6,7 +6,7 @@ import numpy as np
 # ==========================================
 # 1. ตั้งค่าหน้าเพจหลัก
 # ==========================================
-st.set_page_config(page_title="HSR HP Predictor", page_icon="✨") 
+st.set_page_config(page_title="HSR HP Inflation Predictor", page_icon="✨") 
 
 # ==========================================
 # 🎨 2. ตกแต่งปุ่มด้วย CSS (ปุ่มใหญ่ & เปลี่ยนสี)
@@ -49,7 +49,7 @@ div.stButton > button[kind="secondary"]:hover {
 # ==========================================
 with st.sidebar:
     st.markdown("<h2 style='text-align: center;'>👨‍💻 ผู้จัดทำ</h2>", unsafe_allow_html=True)
-    st.image("https://api.dicebear.com/7.x/adventurer/svg?seed=Felix", use_container_width=True)
+    st.image("IMG20240703140738.jpg", use_container_width=True)
     st.markdown("---")
     st.markdown("**ชื่อ-นามสกุล:** เทพทัต ทับทิมไทร")
     st.markdown("**รหัสนักศึกษา:** `[ใส่รหัสนักศึกษาของคุณ]`")
@@ -60,7 +60,7 @@ with st.sidebar:
 # ==========================================
 # 4. ส่วนหัวเว็บ (Header & Logo)
 # ==========================================
-st.image("https://upload.wikimedia.org/wikipedia/en/thumb/5/52/Honkai_Star_Rail_logo.png/800px-Honkai_Star_Rail_logo.png", width=250)
+st.image("logo.png", width=250)
 st.title("Boss HP Predictor")
 st.markdown("---")
 
